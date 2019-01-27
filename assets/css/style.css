@@ -1,0 +1,55 @@
+body{
+      background: url('../images/MickeyComicStripWallpaper_Final.png');
+    
+    /* Disney font -- Too much Mickey is hard to read!*/
+    /* font-family: 'WaltographRegular';  */
+
+    /* Default font -- Got the job done until I found the Pixar link*/
+    /* font-family: 'Raleway', sans-serif; */
+
+    /* Pixar font */
+    font-family: 'Sigmar One', sans-serif;
+    font-size: 25px;
+}
+
+.btn-primary,.reset{
+	background-color: #313477;
+    color: white;
+
+    font-family: 'WaltographRegular',sans-serif;
+    
+    /* Pixar Font */
+    /* font-family: 'Sigmar One', sans-serif; */
+    
+	font-size: 30px;
+	padding: 20px;
+	margin-top: 100px;
+}
+
+.btn-primary:hover, .reset:hover{
+    background-color: #202364;
+}
+
+.container{
+    margin-top: 50px;
+    text-align: center;
+    height: 100%;
+    width: 700px;
+}
+
+h2, #message, #finalMessage{ 
+    font-family: 'WaltographRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
+ }
+
+.thisChoice:hover{
+    background-color: #202364;
+    color: white;
+    padding: 10px;
+}
+
+/* I tried to change the cursor into a Micky glove. It sounded better tha it looked. */
+/* html {
+	cursor: url(../images/Glovepointer2.png), auto;
+} */
